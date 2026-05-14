@@ -3,8 +3,8 @@ import './globals.css';
 import CyberEffects from './components/CyberEffects';
 
 export const metadata: Metadata = {
-  title: 'Shivam Mahajan | Data Analyst',
-  description: 'Cyberpunk portfolio for Shivam Mahajan — Data Analyst and Digital Marketer.',
+  title: 'Shivam Mahajan | Data Analyst & BI Developer',
+  description: 'Cyberpunk analytics portfolio for Shivam Mahajan — Python, SQL, Power BI, Streamlit, ML, and business intelligence projects.',
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {

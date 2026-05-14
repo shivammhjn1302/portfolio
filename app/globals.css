@@ -405,3 +405,60 @@ body.is-targeting .cyber-cursor-ring {
   .cursor-trail-wrap,
   .mouse-spotlight { display: none; }
 }
+
+/* --- Portfolio project upgrade: analytics case-study cards --- */
+.project-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.metric-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 18px;
+}
+
+.metric-pills span {
+  padding: 7px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(249, 248, 113, .35);
+  background: rgba(249, 248, 113, .075);
+  color: var(--yellow);
+  font-weight: 900;
+  font-size: 13px;
+  letter-spacing: .04em;
+}
+
+.project-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 22px;
+}
+
+.project-actions a {
+  position: relative;
+  z-index: 1;
+  display: inline-flex;
+  padding: 10px 13px;
+  border-radius: 999px;
+  border: 1px solid rgba(0, 245, 255, .42);
+  color: var(--cyan);
+  background: rgba(0, 245, 255, .07);
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  font-size: 13px;
+  transition: transform .2s, border-color .2s, color .2s, box-shadow .2s;
+}
+
+.project-actions a:hover {
+  transform: translateY(-3px);
+  border-color: var(--pink);
+  color: var(--pink);
+  box-shadow: 0 0 20px rgba(255, 43, 214, .22), 0 0 30px rgba(0, 245, 255, .12);
+}
+
+@media (max-width: 860px) {
+  .project-grid { grid-template-columns: 1fr; }
+}
