@@ -52,19 +52,6 @@ const projects = [
     live: 'https://ecommerce-sales-customer-analytics.vercel.app',
     github: 'https://github.com/shivammhjn1302/ecommerce-sales-customer-analytics',
   },
-  {
-    title: 'Food Delivery Performance Analytics Dashboard',
-    tag: 'BI / Analytics / Operations',
-    desc: 'Delivery operations analytics project for tracking order performance, customer demand, operational bottlenecks, and marketplace-style growth indicators.',
-    metrics: ['Ops KPIs', 'Dashboard UI', 'Performance insights'],
-    github: 'https://github.com/shivammhjn1302/food-delivery-performance-analytics-dashboard-',
-  },
-  {
-    title: 'Marketing Performance Command Center',
-    tag: 'SEO / SEM / Analytics',
-    desc: 'Digital marketing lens for campaign visibility, search performance, analytics tracking, and conversion-focused reporting.',
-    metrics: ['SEO', 'SEM', 'GA insights'],
-  },
 ];
 
 export default function Home() {
