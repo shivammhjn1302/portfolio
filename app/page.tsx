@@ -24,7 +24,7 @@ const stats = [
   { value: '2025', label: 'B.Com (Hons) + Data Analytics' },
   { value: '132K+', label: 'OTT sessions modeled' },
   { value: '58K+', label: 'E-commerce transactions analyzed' },
-  { value: '70+', label: 'Advanced SQL queries shipped' },
+  { value: '28K+', label: 'Food delivery orders analyzed' },
 ];
 
 const education = [
@@ -51,6 +51,13 @@ const projects = [
     metrics: ['58K orders', '12K customers', '35 SQL queries', 'Vercel dashboard'],
     live: 'https://ecommerce-sales-customer-analytics.vercel.app',
     github: 'https://github.com/shivammhjn1302/ecommerce-sales-customer-analytics',
+  },
+  {
+    title: 'Food Delivery Performance & Customer Analytics Dashboard',
+    tag: 'Next.js / SQL / BI / Operations Analytics',
+    desc: 'A Zomato/Swiggy-style operations dashboard covering delivery speed, cancellations, customer value, restaurant performance, cuisine demand, weather impact, and executive KPI reporting.',
+    metrics: ['28K orders', '5.5K customers', '850 restaurants', 'Power BI assets'],
+    github: 'https://github.com/shivammhjn1302/food-delivery-performance-analytics-dashboard-',
   },
 ];
 
@@ -143,6 +150,13 @@ export default function Home() {
         <div className="project-grid">
           {projects.map((project, index) => (
             <article className="project-card glass-panel" key={project.title}>
+              <a
+                className="project-card-link"
+                href={project.live ?? project.github}
+                target="_blank"
+                rel="noreferrer"
+                aria-label={`Open ${project.title}`}
+              />
               <span className="project-index">0{index + 1}</span>
               <h3>{project.title}</h3>
               <p className="project-tag">{project.tag}</p>
