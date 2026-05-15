@@ -84,7 +84,7 @@ export default function Home() {
             <h1>Executive analytics products engineered for hiring signal.</h1>
             <p className="hero-subtitle">
               I build business-first analytics systems across SQL, Python, BI dashboards, ML experiments,
-              and modern web interfaces — presented like a premium SaaS command center instead of a generic portfolio.
+              and modern web interfaces — presented like an old-money executive analytics boardroom instead of a generic portfolio.
             </p>
             <div className="hero-actions" aria-label="Primary actions">
               <a className="button primary" href="#projects">Explore Case Studies</a>
@@ -94,7 +94,7 @@ export default function Home() {
 
           <aside className="analytics-card" aria-label="Portfolio operating metrics">
             <div className="card-header">
-              <span>Portfolio Command Center</span>
+              <span>Portfolio Boardroom Ledger</span>
               <b>Recruiter-ready</b>
             </div>
             <div className="signal-chart" aria-hidden="true">
@@ -141,9 +141,9 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="section ecosystem-panel" aria-label="Analytics ecosystem command center">
+      <section className="section ecosystem-panel" aria-label="Analytics ecosystem boardroom">
         <div className="section-head">
-          <p className="eyebrow">Ecosystem Command Center</p>
+          <p className="eyebrow">Ecosystem Boardroom</p>
           <h2>One cohesive portfolio suite, three business domains, one visual language.</h2>
         </div>
         <div className="ecosystem-grid">

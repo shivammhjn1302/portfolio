@@ -1,8 +1,7 @@
 import type { Metadata, Viewport } from 'next';
 import './globals.css';
-import CyberEffects from './components/CyberEffects';
 
-const siteUrl = 'https://shivam-cyberpunk-portfolio.vercel.app';
+const siteUrl = 'https://shivam-old-money-portfolio.vercel.app';
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -11,7 +10,7 @@ export const metadata: Metadata = {
     template: '%s | Shivam Mahajan',
   },
   description:
-    'Premium analytics engineering portfolio showcasing SQL, Python, BI dashboards, product analytics, ML experimentation, and executive-ready data products.',
+    'Old-money executive analytics portfolio showcasing SQL, Python, BI dashboards, product analytics, ML experimentation, and boardroom-ready data products.',
   keywords: [
     'Shivam Mahajan',
     'Analytics Engineer',
@@ -28,16 +27,16 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Shivam Mahajan | Analytics Engineer Portfolio',
     description:
-      'Recruiter-ready analytics portfolio built like a premium SaaS intelligence suite across streaming, retail, and operations case studies.',
+      'Recruiter-ready analytics portfolio styled like a premium old-money boardroom intelligence suite across streaming, retail, and operations case studies.',
     url: siteUrl,
-    siteName: 'SM Analytics Command Center',
+    siteName: 'SM Analytics Boardroom',
     locale: 'en_IN',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Shivam Mahajan | Analytics Engineer Portfolio',
-    description: 'Premium data analytics portfolio for BI, analytics engineering, and product analytics roles.',
+    description: 'Old-money executive data analytics portfolio for BI, analytics engineering, and product analytics roles.',
   },
   robots: {
     index: true,
@@ -46,17 +45,14 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: '#020617',
+  themeColor: '#160d07',
   colorScheme: 'dark',
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
-      <body>
-        <CyberEffects />
-        {children}
-      </body>
+      <body>{children}</body>
     </html>
   );
 }

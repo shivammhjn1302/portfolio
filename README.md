@@ -1,6 +1,6 @@
 # Shivam Mahajan — Analytics Engineer Portfolio
 
-Premium dark SaaS-style analytics portfolio for BI, analytics engineering, data platform, and product analytics hiring loops.
+Old-money executive analytics portfolio for BI, analytics engineering, data platform, and product analytics hiring loops.
 
 ## Project Overview
 
@@ -28,7 +28,7 @@ Data sources / synthetic business data
   → SQL exploration + metric modeling
   → Python notebooks + ML experiments
   → BI / Streamlit / Next.js presentation layers
-  → Recruiter-ready portfolio command center
+  → Recruiter-ready portfolio boardroom
 ```
 
 ## Tech Stack
