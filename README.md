@@ -69,7 +69,7 @@ Deploy on Vercel using the repository root. The app is static-first and optimize
 - First-load JS is kept lean by using CSS-driven UI instead of heavy animation/chart libraries on the portfolio shell.
 - `poweredByHeader` is disabled.
 - `outputFileTracingRoot` is pinned to avoid multi-lockfile workspace ambiguity.
-- Reduced-motion media query disables decorative cursor/motion for accessibility.
+- Reduced-motion media query disables decorative pointer/motion for accessibility.
 
 ## Future Roadmap
 
